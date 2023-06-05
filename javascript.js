@@ -112,7 +112,7 @@ function playRoundTroll() {
     document.getElementById('player-choice').innerHTML = '<img src="./images/troll-tie.jpeg">';
     document.getElementById('result').innerHTML = winner; 
 } else if (computerSelection == "dayman") {
-    winner = "The troll owns that boy's hole";
+    winner = "The troll owns that boy's.. did he said soul?";
     playerScore++;
     round++;
     document.getElementById('round').innerHTML = "ROUND: " + round;
@@ -121,7 +121,7 @@ function playRoundTroll() {
     document.getElementById('player-choice').innerHTML = '<img src="./images/troll-win.jpeg">';
     document.getElementById('result').innerHTML = winner; 
 } else if (computerSelection == "nightman") {
-    winner = "The troll gets the toll but the nightman gets the hole";
+    winner = "The troll gets the toll but the nightman gets the.. I think he said soul";
     computerScore++;
     round++;
     document.getElementById('round').innerHTML = "ROUND: " + round;

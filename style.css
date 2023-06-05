@@ -95,11 +95,11 @@ body {
 
   #player-choice {
   grid-column: 1 / 2;
-  min-height: 25vw;
   display: flex;
   justify-content: center;
   border: 5px solid rgb(252, 252, 252);
-  max-width: 250px;
+  width: 250px;
+  height: 12em;
   }
 
   .vs {
@@ -111,11 +111,11 @@ body {
 
   #cpu-choice {
     grid-column: 3 / 4;
-    min-height: 25vw;
     display: flex;
     justify-content: center;
     border: 5px solid rgb(252, 252, 252);
-    max-width: 250px;
+    width: 250px;
+    height: 12em;
   }
 
   #result {
